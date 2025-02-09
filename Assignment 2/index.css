@@ -1,0 +1,159 @@
+body{
+    background-color: white;
+    
+}
+
+@media (min-width: 1024px){
+  .container {
+    position: relative; /* Needed for absolute positioning */
+    min-height: 50vh;
+    width: 100vw;
+    background-color: rgb(71, 63, 63);
+  }
+  
+  .bigBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center */
+    background-color: white;
+    width: 60vw;
+    height: 200px;
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 70px;
+    box-shadow: 0px 10px 0px rgb(154, 153, 152) ;
+    z-index: 1; /* Big box below small box */
+  }
+  
+  .smallBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-110%, -335%); /* Center horizontally, adjust vertical */
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30vw;
+    box-shadow: 0px 10px 0px rgb(152, 110, 2) ;
+    height: 30px;
+    padding-top: 10px; /* Adjusted padding */
+    z-index: 2; /* Small box above big box */
+  }
+} 
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: white;  
+  }
+  .container {
+    min-height: 50vh;
+    width: 100vw;
+    background-color: rgb(71, 63, 63);
+}
+
+.bigBox {
+  position: absolute;
+    top: 40%;
+    left: 0%;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 70px;
+    box-shadow: 0px 10px 0px rgb(154, 153, 152);
+    z-index: 1;
+}
+  
+  .smallBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-140%, -205%); /* Center horizontally, adjust vertical */
+    background-color: goldenrod;
+    text-align: center;
+    text-overflow: auto;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40vw;
+    box-shadow: 0px 10px 0px rgb(152, 110, 2) ;
+    height: 40px;
+    padding-top: 10px; /* Adjusted padding */
+    z-index: 2; /* Small box above big box */
+  }
+}
+
+@media (max-width:768px){
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: white;  
+  }
+  .container {
+    min-height: 50vh;
+    width: 100vw;
+    background-color: rgb(71, 63, 63);
+}
+.bigBox {
+  position: absolute;
+    top: 40%;
+    left: 0%;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    box-shadow: 0px 10px 0px rgb(154, 153, 152);
+    z-index: 1;
+}
+.smallBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-130%, -205%); /* Center horizontally, adjust vertical */
+  background-color: goldenrod;
+  text-align: center;
+  text-overflow: auto;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40vw;
+  box-shadow: 0px 10px 0px rgb(152, 110, 2) ;
+  height: 40px;
+  padding-top: 10px; /* Adjusted padding */
+  z-index: 2; /* Small box above big box */
+}
+}
+
+.upperside {
+  height: 20vh;
+  margin-top: 50px;
+  margin-left: 20px;
+  width: 45vw;
+}
+
+.heading {
+  padding-left: 30px;
+}
+
+  span {
+    color:rgb(5, 249, 168);
+  }
+
+  p, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
