@@ -47,7 +47,7 @@ header nav ul li a {
     color: black;
 }
 .hero_section{
-    background-image: url(/Assets/Hero\ section_bg.png);
+    background-image: url(../Media/Hero-section_bg.png);
     width: 100vw;
     height: 1024px;
     background-position: center;
@@ -415,7 +415,7 @@ header nav ul li a {
 .fifth_section {
     width: 100vw;
     height: 523px;
-    background-image: url(/Assets/form_section_bg.png);
+    background-image: url(../Media/form_section_bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -499,7 +499,7 @@ select{
 .faq_section {
     width: 100vw;
     height: 1153px;
-    background-image: url(/Assets/FAQs_bg.png);
+    background-image: url(../Media/FAQs_bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -557,7 +557,7 @@ select{
    
 }
 .pre_footer{
-    background-image: url(/Assets/Pre_footer_bg.png);
+    background-image: url(../Media/Pre_footer_bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -574,7 +574,7 @@ select{
 .footer{
     width: 100vw;
     height: 561px;
-    background-image: url(/Assets/footer_bg.png);
+    background-image: url(../Media/footer_bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -665,7 +665,7 @@ select{
         display: none;
     }
     .hero_section{
-        background-image: url(/Assets/Hero\ section_bg.png);
+        background-image: url(../Media/Hero-section_bg.png);
         width: 100vw;
         height: 100vh;
         background-position: center;
@@ -764,7 +764,7 @@ select{
     .fifth_section {
         width: 100vw;
         height: 523px;
-        background-image: url(/Assets/form_section_bg.png);
+        background-image: url(../Media/form_section_bg.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
